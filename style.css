@@ -1,0 +1,53 @@
+html, body{
+    height: 100%;
+  margin:0;
+  padding:0;
+}
+.sign{
+  text-align: center;
+  width:100%;
+  position:absolute;
+  margin:auto;
+  position:absolute;
+  left:50%;
+  transform: translateX(-50%);
+  line-height:9vmin;
+}
+
+#tsky2{
+  top:50%;
+  font-size:5vmin;
+  padding-top:2vmin;
+  line-height:4vmin;
+}
+#tsky{
+  font-size:10vmin;
+  bottom: 50%;
+}
+
+#back{
+  padding-top:0%;
+  border-width:0;
+  background-color:grey;
+  transition-property:background-color;
+  transition-duration:3s;
+  transition-timing-function:ease-in-out;
+}
+
+#white{
+background: radial-gradient(white 10%, rgba(255,255,255,.85) 100%);
+}
+
+#email{
+  font-size:3vmin;
+  text-decoration:none;
+  line-height:1vmin;
+}
+
+a{
+  text-decoration:none;
+  color:#3030a0;
+}
+a:hover{
+color:#c00000;
+}
